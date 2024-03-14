@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<title>Styling Navigation Bar</title>
+
+	<!-- Include Bootstrap via CDN -->
+
+	<!-- Include Javascript via CDN -->
+
+	<style>
+		
+
+		img {
+			width: 100px;
+		}
+
+		.container {
+			width: 200px;
+			padding: 15px;
+			border-radius: 10px;
+			border-style: solid;
+  			border-width: medium;
+  			border-color: grey;
+			font-side: 20px;
+		}
+		
+		.main{
+			background-image: url(https://img.freepik.com/free-vector/watercolor-background_87374-71.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.header{
+			font-family: Times New Roman;
+			font-size: 50px;	
+		}
+
+		th {
+			font-family: varela round;
+			font-size: 30hpx;
+		}
+
+		p, li, .footer {
+			font-family: Ariel;
+			font-size: 18px;
+		}
+
+	</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-xl"><!-- Add navbar class -->
+<div class="container-fluid">
+	<a class="navbar-brand" href="https://www.netflix.com/"> <!-- Add navbar-brand class -->
+		<img src="https://storage.googleapis.com/oa_disk001/obgreenhills/65/documents/class-2441/folder-10710/1709855495-2921.png" class="rounded-circle" id="brand">
+	</a>
+  
+	<ul class="navbar-nav">
+	    <li class="nav-item"> <!-- Add nav-item class -->
+	      <a class="nav-link" href="#">Home</a><!-- Add nav-link class -->
+	    </li>
+	    <li class="nav-item"> <!-- Add nav-item class -->
+	    	<a class="nav-link" href="#">Movies</a> <!-- Add nav-link class -->
+	    </li>
+	    <li class="nav-item dropdown"> <!-- Add nav-item class -->
+	    	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Genre</a> <!-- Add nav-link class -->
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#">Dystopian</a></li>
+				<li><a class="dropdown-item" href="#">Action</a></li>
+				<li><a class="dropdown-item" href="#">Sci-Fi</a></li>
+			</ul>
+	    </li>
+	   <li class="nav-item"> <!-- Add nav-item class --> 
+	    	<a class="nav-link" href="#">Contact Us</a> <!-- Add nav-link class -->
+	    </li>
+	</ul>
+	
+	 <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-danger" type="button">Search</button>
+      </form>
+</div>	  
+</nav>
+
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+	<title>Quiz 1</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="header col-xl-12 text-center text-light"></div>
+			</div>
+		</div>
+	<br>
+		<div class="container">
+			<table class="table table-bordered table-danger"> 
+
+				<thead>
+					<tr class="text-center">
+						<th>MOVIE POSTER</th>
+						<th>SYNOPSIS, CASTS, DIRECTORS</th>
+						<th> MOVIE REVIEW</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr> 
+						<td><img class="rounded text-center" src="https://m.media-amazon.com/images/I/91d0GXi8lEL._AC_UF1000,1000_QL80_.jpg" alt="THE HUNGER GAMES" width="315px"><p class="h4 text-center">The Hunger Games</p></td>
+
+						<td>
+							<p class="h5"><u>Synopsis:</u></p>
+							<p>In what was once North America, the Capitol of Panem maintains its hold on its 12 districts by forcing them each to select a boy and a girl, called Tributes, to compete in a nationally televised event called the Hunger Games. Every citizen must watch as the youths fight to the death until only one remains. District 12 Tribute Katniss Everdeen (Jennifer Lawrence) has little to rely on, other than her hunting skills and sharp instincts, in an arena where she must weigh survival against love.</p>
+							<br>
+							<p class="h6"><u> Main Cast:</u></p>
+							<ul>
+								<li>Jennifer Lawrence</li>
+								<li>Josh Hutcherson</li>
+								<li>Liam Hemsworth</li>
+								<li>Stanly Tucci</li>
+							</ul>
+							<p class="h6"><u>Director:</u> Francis Lawrence and Gary Ross</p>			
+						</td>
+				
+						<td>
+							<center><img src="https://miro.medium.com/v2/resize:fit:580/1*7XnRjBonpl9OAlHh6ljL1g.png" class="rounded" alt="5 star review" width="300px"></center>
+						</td>
+					</tr>
+				</tbody>
+		</table>
